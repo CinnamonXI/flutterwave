@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FEM PROJECT</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 10px;
+        }
+        
+        .title {
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        .topic {
+            font-weight: lighter;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .flex-container {
+            display: flex;
+            border-top: 1px solid black;
+            flex-direction: row;
+        }
+        
+        @media only screen and (max-width: 320px) {
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+            }
+            .flex-container2 {
+                flex-direction: column !important;
+            }
+            .container-1 {
+                width: 100% !important;
+            }
+            .container-2 {
+                width: 100% !important;
+            }
+            .container-3 {
+                width: 100% !important;
+            }
+            .container-4 {
+                width: 100% !important;
+            }
+            .other-stories {
+                width: 100% !important;
+            }
+        }
+        
+        .container-1 {
+            width: 25%;
+            border: 1px solid black;
+        }
+        
+        .container-2 {
+            width: 50%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        
+        .container-3 {
+            width: 25%;
+            border: 1px solid black;
+        }
+        
+        .story {
+            padding: 0px 10px;
+        }
+        
+        .flex-container2 {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            border-bottom: 2px solid black;
+        }
+        
+        .container-4 {
+            width: 25%;
+            border-right: 1px solid black;
+        }
+        
+        .other-stories {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .others {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+        
+        .others-1 {
+            background-color: purple;
+        }
+        
+        .others-2 {
+            background-color: blue;
+        }
+        
+        .others-3 {
+            background-color: violet;
+        }
+        
+        .others-4 {
+            background-color: green;
+        }
+        
+        .others-5 {
+            background-color: crimson;
+        }
+        
+        .links {
+            color: cyan;
+            font-size: 30px;
+            padding: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">The News Times</h1>
+    <div class="flex-container">
+        <div class="story container-1">
+            <h2 class="topic">Student Learns HTML</h2>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+        </div>
+        <div class="story container-2">
+            <h2 class="topic">BREAKING: Puppies Are Adorable</h2>
+            ,<img src="http://placecorgi.com/600/400" alt="puppy">
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+        </div>
+        <div class="story container-3">
+            <h2 class="topic">CSS Is Apparently A Thing</h2>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+        </div>
+    </div>
+    <div class="flex-container2">
+        <div class="story container-4">
+            <h2 class="topic">Boy Likes Turtles</h2>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+            <p class="text">Lorem ipsum dolor sit amnet consectetur adipisicing eli. Hic ad in quas alias non! Expedita similique et dolore illum doloremque vel accusantium ut eos tempora sequi, doloribus vitae mollitia praesentium ex ullam? Dolorem labore fugiat neque
+                nistrum porro vero fugit.
+            </p>
+        </div>
+        <ul class="other-stories">
+            <li class="others-1 others">
+                <a class="links" href="#">Politics</a>
+            </li>
+            <li class="others-2 others">
+                <a class="links" href="#">Technology</a>
+            </li>
+            <li class="others-3 others">
+                <a class="links" href="#">Local</a>
+            </li>
+            <li class="others-4 others">
+                <a class="links" href="#">Opinion</a>
+            </li>
+            <li class="others-5 others">
+                <a class="links" href="#">Sports</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
